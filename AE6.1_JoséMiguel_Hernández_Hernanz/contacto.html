@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AllShoes - Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Imagenes/Logos/Logo.png" alt="Logo AllShoes" class="logo-img">
+            <span class="logo-texto">ALLSHOES</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div style="text-align: center;"><h1 class="titulo-seccion">CONTACTO</h1></div>
+
+        <div class="contacto-container">
+            <div class="contacto-info">
+                <h3>¿TIENES ALGUNA DUDA?</h3>
+                <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing.</em></p>
+                <br>
+                <p><strong>E-mail:</strong> info@allshoes.es</p>
+                <br>
+                <p><strong>Redes sociales:</strong></p>
+                <div class="social-icons-row">
+                    <a href="#"><img src="Imagenes/RedesSociales/whatsapp-logo.png" alt="WhatsApp" class="social-icon"></a>
+                    <a href="#"><img src="Imagenes/RedesSociales/twitter-icon.png" alt="Twitter" class="social-icon"></a>
+                    <a href="#"><img src="Imagenes/RedesSociales/instagram-logo.png" alt="Instagram" class="social-icon"></a>
+                    <a href="#"><img src="Imagenes/RedesSociales/telegram-icon.png" alt="Telegram" class="social-icon"></a>
+                    <a href="#"><img src="Imagenes/RedesSociales/facebook-icon.png" alt="Facebook" class="social-icon"></a>
+                </div>
+            </div>
+
+            <div class="contacto-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">NOMBRE:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">CORREO:</label>
+                        <input type="email" id="correo" name="correo" placeholder="correo@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">TELÉFONO:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+34 XXX XXX XXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="tema">TEMA:</label>
+                        <select id="tema" name="tema">
+                            <option value="general">Consulta General</option>
+                            <option value="pedidos">Pedidos</option>
+                            <option value="devoluciones">Devoluciones</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">MENSAJE:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="condiciones" name="condiciones">
+                        <label for="condiciones" style="display:inline;">Aceptar condiciones</label>
+                    </div>
+                    <button type="submit" class="btn">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </main>
+        <footer class="footer">
+
+    <div class="footer-container">
+        
+        <div class="footer-column">
+            <h3>Compañía</h3>
+            <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Nuestros Servicios</a></li>
+                <li><a href="#">Política Privacidad</a></li>
+                <li><a href="#">Afiliate</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Preguntas</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Envíos</a></li>
+                <li><a href="#">Afiliate</a></li>
+                <li><a href="#">Pago</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Tienda</h3>
+            <ul>
+                <li><a href="#">Ropa</a></li>
+                <li><a href="#">Zapatos</a></li>
+                <li><a href="#">Teléfonos</a></li>
+                <li><a href="#">Pantallas</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Síguenos</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
