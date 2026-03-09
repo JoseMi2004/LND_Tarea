@@ -33,8 +33,6 @@ Para garantizar la máxima calidad y cumplir con los requisitos establecidos, el
 * **Nomenclatura en Español y Descriptiva (Requisito Obligatorio):** Todos los selectores de clases e identificadores (`id`) se han redactado en español, dejando claro qué elemento controlan (ej: `.logo-contenedor`, `.titulo-seccion`, `.boton-compra`), lo que facilita la lectura y mantenimiento del código por parte de otros desarrolladores.
 * **Interactividad sin JavaScript:** Se han añadido efectos interactivos como transiciones suaves y cambios de color al pasar el cursor (`:hover`) en botones, enlaces y tarjetas de productos, usando puramente CSS.
 
-## 5. Aspectos a tener en cuenta (Notas para la Evaluación)
-* **Comentarios en el Código:** Cumpliendo con los requisitos obligatorios, el código fuente no ha sido sobrecomentado. Solo se han incluido comentarios estructurales para separar secciones principales (ej: /* CABECERA */, /* SECCIÓN HERO */) o justificar decisiones CSS importantes, manteniendo el código limpio.
+## 5. Aspectos a tener en cuenta 
+* **Comentarios en el Código:** Cumpliendo con los requisitos obligatorios, el código fuente no ha sido sobrecomentado. Solo se han incluido comentarios estructurales para separar secciones principales o justificar decisiones CSS importantes, manteniendo el código limpio.
 * **Accesibilidad:** Se han incluido atributos `alt` en todas las imágenes y un contraste de colores adecuado para garantizar que la web sea comprensible por lectores de pantalla y accesible para todos los usuarios.
-* **Responsividad (Opcional si lo hiciste):** Aunque es una recreación de diseño, se han utilizado técnicas como Flexbox y Grid para asegurar que la estructura se comporte de forma estable.
-
