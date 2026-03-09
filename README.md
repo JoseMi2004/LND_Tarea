@@ -1,5 +1,7 @@
 # AE6.1 - Proyecto HTML/CSS: Presentación Web "AllShoes"
 
+https://josemi2004.github.io/LND_Tarea/
+
 **Desarrollador/a:** José Miguel Hernández Hernanz
 **Fecha:** 09/03/2026
 
